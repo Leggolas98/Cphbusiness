@@ -1,6 +1,7 @@
 //Task 3
 
 //Task 3.a
+
 int a = (int)random(1, 11);
 int b = (int)random(1, 11);
 
@@ -11,6 +12,7 @@ if (a == 10 || b == 10 || a + b == 10) {
 }
 
 //Task 3.b
+
 int min = (int)random(1, 11);
 int max = (int)random(1, 11);
 
@@ -21,6 +23,7 @@ if (min + max > 10 && min <= 5 || max <= 5) {
 }
 
 //Task 3.c
+
 int x = (int)random(1,31);
 int y = (int)random(1,31);
 int z = (int)random(1,31);
