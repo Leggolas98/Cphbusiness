@@ -42,7 +42,7 @@ void methodTwo()
   break;
   
   case 2:
-  println("Wedneysday");
+  println("Wednesday");
   break;
   
   case 3:
