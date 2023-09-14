@@ -19,12 +19,12 @@ void draw() {
   fill(80);
   rect(250,250,150,400);
   
-   if (frameCount <= 100) {
+   if (frameCount <= 0) {
   fill(red);
   ellipse(250,130,100,100);
    }
    
-  if (frameCount >100 && frameCount <200) {
+  if (frameCount >0 && frameCount <180) {
     fill(255,0,0);
     ellipse(250,130,100,100);
   } else { fill(100);
@@ -33,7 +33,7 @@ void draw() {
   
   fill(255);
   ellipse(250,250,100,100);
-  if (frameCount >200 && frameCount <300) {
+  if (frameCount >80 && frameCount <180) {
     fill(yellow);
     ellipse(250,250,100,100);
   } else { fill(100);
@@ -42,7 +42,7 @@ void draw() {
   
   fill(255);
   ellipse(250,370,100,100);
-  if (frameCount >300 && frameCount <400) {
+  if (frameCount >180 && frameCount <400) {
     fill(green);
     ellipse(250,370,100,100);
   } else { fill(100);
